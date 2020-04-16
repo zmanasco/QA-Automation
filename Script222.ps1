@@ -1,0 +1,5 @@
+$password = ConvertTo-SecureString “Vinayaka420%” -AsPlainText -Force
+$Cred = New-Object System.Management.Automation.PSCredential (“amrinder_brar@mednax.com”, $password)
+
+Invoke-ASCmd -Server:asazure://aspaaseastus2.asazure.windows.net/azprsvratanalsvc01t -Database:"DateOfService" -Credential $Cred -Query:"SELECT NON EMPTY { [Measures].[Allowed], [Measures].[Allowed_Payer], [Measures].[Bad_Debt_ADJ], [Measures].[CA Provision], [Measures].[Charges], [Measures].[Contractual_Adj], [Measures].[Inferred_Avoidable_Adjustment], [Measures].[Inferred_Pat_Pymt_From_BDA], [Measures].[Ins_Payments], [Measures].[Other_Adj], [Measures].[Pat_Pymt Count], [Measures].[Patient_Payments], [Measures].[Payments], [Measures].[Units] } ON COLUMNS, NON EMPTY { ([PAU_Master].[OM_Div_Reg_Prac].[ACCT_UNIT].ALLMEMBERS ) } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS FROM ( SELECT ( { [Service_Date].[DOS_Year].&[2019] } ) ON COLUMNS FROM ( SELECT ( { [PAU_Master].[OM_Div_Reg_Prac].[Division_].&[PEDIATRIX] } ) ON COLUMNS FROM [Model])) WHERE ( [Service_Date].[DOS_Year].&[2019] )"
+

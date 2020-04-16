@@ -1,0 +1,3415 @@
+Database: old acct_datamart; Status: Processed; Size: 672MB
+ Cube: Acct Op Summary
+  MG: Fact Summary             ; Status: Processed; Size: 378MB
+   Partition: Fact Summary                       ; Status: Processed; Size: 378MB
+Dimension: DimACCT Periods
+Dimension: DimACCT All Attrib
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Fin COA
+Dimension: dimACCT Con COA
+Dimension: dimACCT_GLTrans_ControlGroup
+Dimension: dimAcct_GLTrans_JE Type
+Dimension: dimACCT_GLTrans_JE Sequence
+Dimension: dimACCT_GLTrans_LineNbr
+Dimension: dimACCT_GLTrans_Status
+Dimension: dimACCT_GLTrans_RDate
+Dimension: dimACCT_GLTrans_Reference
+Dimension: dimACCT_GLTrans_Desc
+Dimension: dimACCT_GLTrans_System
+ Cube: Acct Trial Balance
+  MG: Fact Trial Balance       ; Status: Processed; Size: 111MB
+   Partition: Fact Trial Balance                 ; Status: Processed; Size: 111MB
+  MG: GLTRANS                  ; Status: Processed; Size: 150MB
+   Partition: GLTRANS                            ; Status: Processed; Size: 150MB
+Dimension: DimACCT Periods
+Dimension: DimACCT All Attrib
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Fin COA
+Dimension: dimACCT Con COA
+Dimension: dimACCT_GLTrans_ControlGroup
+Dimension: dimAcct_GLTrans_JE Type
+Dimension: dimACCT_GLTrans_JE Sequence
+Dimension: dimACCT_GLTrans_LineNbr
+Dimension: dimACCT_GLTrans_Status
+Dimension: dimACCT_GLTrans_RDate
+Dimension: dimACCT_GLTrans_Reference
+Dimension: dimACCT_GLTrans_Desc
+Dimension: dimACCT_GLTrans_System
+Database: Accounting_Datamart; Status: Processed; Size: 1,318MB
+ Cube: ACCT AR Summary
+  MG: Fact AR Summary          ; Status: Processed; Size: 578MB
+   Partition: Fact AR Summary                    ; Status: Processed; Size: 578MB
+  MG: Dim Periods              ; Status: Processed; Size: 0MB
+   Partition: Dim Periods                        ; Status: Processed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: Vw X Ref User PAU                  ; Status: Processed; Size: 13MB
+Dimension: DimACCT All Attrib
+Dimension: DimACCT AR Summary COA
+Dimension: dimACCT Con COA
+Dimension: DimACCT Fin COA 2
+Dimension: DimACCT Fin COA
+Dimension: DimACCT GLTRANS Company
+Dimension: DimACCT GLTRANS ControlGrp
+Dimension: dimACCT GLTRANS Description
+Dimension: DimACCT GLTRANS LineNbr
+Dimension: dimACCT GLTRANS RDate
+Dimension: dimACCT GLTRANS Reference
+Dimension: DimACCT GLTRANS Status
+Dimension: dimACCT GLTRANS System
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Periods
+Dimension: dimPAU GL Dept Type
+Dimension: dimPAU GL Spec
+Dimension: Dim_Same_Store_Details
+Dimension: Master Employee List
+Dimension: Dim Board Format TB Coa
+Dimension: Dim Board Format OPS Coa
+ Cube: Acct Op Summary
+  MG: Fact Summary             ; Status: Processed; Size: 4,807MB
+   Partition: Fact Summary                       ; Status: Processed; Size: 4,807MB
+  MG: Fact GLTRANS             ; Status: Processed; Size: 386MB
+   Partition: GLTRANS                            ; Status: Processed; Size: 386MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: Vw X Ref User PAU                  ; Status: Processed; Size: 13MB
+Dimension: DimACCT All Attrib
+Dimension: DimACCT AR Summary COA
+Dimension: dimACCT Con COA
+Dimension: DimACCT Fin COA 2
+Dimension: DimACCT Fin COA
+Dimension: DimACCT GLTRANS Company
+Dimension: DimACCT GLTRANS ControlGrp
+Dimension: dimACCT GLTRANS Description
+Dimension: DimACCT GLTRANS LineNbr
+Dimension: dimACCT GLTRANS RDate
+Dimension: dimACCT GLTRANS Reference
+Dimension: DimACCT GLTRANS Status
+Dimension: dimACCT GLTRANS System
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Periods
+Dimension: dimPAU GL Dept Type
+Dimension: dimPAU GL Spec
+Dimension: Dim_Same_Store_Details
+Dimension: Master Employee List
+Dimension: Dim Board Format TB Coa
+Dimension: Dim Board Format OPS Coa
+ Cube: Acct Trial Balance for Tax
+  MG: Fact Trial Balance       ; Status: Processed; Size: 499MB
+   Partition: Fact Trial Balance                 ; Status: Processed; Size: 499MB
+  MG: GLTRANS                  ; Status: Processed; Size: 1,110MB
+   Partition: GLTRANS                            ; Status: Processed; Size: 1,110MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: Vw X Ref User PAU                  ; Status: Processed; Size: 13MB
+Dimension: DimACCT All Attrib
+Dimension: DimACCT AR Summary COA
+Dimension: dimACCT Con COA
+Dimension: DimACCT Fin COA 2
+Dimension: DimACCT Fin COA
+Dimension: DimACCT GLTRANS Company
+Dimension: DimACCT GLTRANS ControlGrp
+Dimension: dimACCT GLTRANS Description
+Dimension: DimACCT GLTRANS LineNbr
+Dimension: dimACCT GLTRANS RDate
+Dimension: dimACCT GLTRANS Reference
+Dimension: DimACCT GLTRANS Status
+Dimension: dimACCT GLTRANS System
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Periods
+Dimension: dimPAU GL Dept Type
+Dimension: dimPAU GL Spec
+Dimension: Dim_Same_Store_Details
+Dimension: Master Employee List
+Dimension: Dim Board Format TB Coa
+Dimension: Dim Board Format OPS Coa
+ Cube: Acct Trial Balance
+  MG: Fact Trial Balance       ; Status: Processed; Size: 503MB
+   Partition: Fact Trial Balance                 ; Status: Processed; Size: 503MB
+  MG: Fact GLTRANS             ; Status: Processed; Size: 901MB
+   Partition: GLTRANS                            ; Status: Processed; Size: 901MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: Vw X Ref User PAU                  ; Status: Processed; Size: 13MB
+Dimension: DimACCT All Attrib
+Dimension: DimACCT AR Summary COA
+Dimension: dimACCT Con COA
+Dimension: DimACCT Fin COA 2
+Dimension: DimACCT Fin COA
+Dimension: DimACCT GLTRANS Company
+Dimension: DimACCT GLTRANS ControlGrp
+Dimension: dimACCT GLTRANS Description
+Dimension: DimACCT GLTRANS LineNbr
+Dimension: dimACCT GLTRANS RDate
+Dimension: dimACCT GLTRANS Reference
+Dimension: DimACCT GLTRANS Status
+Dimension: dimACCT GLTRANS System
+Dimension: DimACCT Ops Sum COA
+Dimension: DimACCT Periods
+Dimension: dimPAU GL Dept Type
+Dimension: dimPAU GL Spec
+Dimension: Dim_Same_Store_Details
+Dimension: Master Employee List
+Dimension: Dim Board Format TB Coa
+Dimension: Dim Board Format OPS Coa
+Database: FinancialWarehouse Cubes_DEV; Status: PartiallyProcessed; Size: 293MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Unprocessed; Size: 0MB
+  MG: Fact AA OP METRICS OR DAYS; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim_CalendarSameStore
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA CS History                 ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim_CalendarSameStore
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Processed; Size: 184MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 184MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 10MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 10MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+  MG: Dim Same Store Details   ; Status: Processed; Size: 25MB
+   Partition: Vw Dim Same Store Details          ; Status: Processed; Size: 25MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim_CalendarSameStore
+ Cube: Payor Mix Cube
+  MG: Fact Reserve Rate        ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Reserve Rate               ; Status: Unprocessed; Size: 0MB
+  MG: Fact Service Mix         ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Service Mix                ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim_CalendarSameStore
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Unprocessed; Size: 0MB
+   Partition: Fact PDX CS History                ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim_CalendarSameStore
+Database: CPT_DETAILS_TEST; Status: Processed; Size: 421MB
+ Cube: CPT_Details
+  MG: Vw CPT Details           ; Status: Processed; Size: 273MB
+   Partition: Vw CPT Details                     ; Status: Processed; Size: 273MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 9MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 9MB
+  MG: Vw Dim Calendar          ; Status: Processed; Size: 0MB
+   Partition: Vw Dim Calendar                    ; Status: Processed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: DOS_Calendar
+Database: FinancialWarehouse Cubes_TEST; Status: PartiallyProcessed; Size: 142MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Processed; Size: 31MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Processed; Size: 31MB
+  MG: Fact AA OP METRICS OR DAYS; Status: Processed; Size: 1MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Processed; Size: 1MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 6MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 6MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA CS History                 ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+ Cube: CPT_Details
+  MG: Vw CPT Details           ; Status: Unprocessed; Size: 0MB
+   Partition: Vw CPT Details                     ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+  MG: Vw Dim Calendar          ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Dim Calendar                    ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact GLAMOUNTS                     ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+  MG: Dim Calendar             ; Status: Unprocessed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+ Cube: Payor Mix Cube
+  MG: Fact Reserve Rate        ; Status: Processed; Size: 7MB
+   Partition: Vw Fact Reserve Rate               ; Status: Processed; Size: 7MB
+  MG: Fact Service Mix         ; Status: Processed; Size: 43MB
+   Partition: Vw Fact Service Mix                ; Status: Processed; Size: 43MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 6MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 6MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Unprocessed; Size: 0MB
+   Partition: Fact PDX CS History                ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Master Employee List
+Dimension: PAU Master
+Database: FinancialWarehouse Cubes; Status: Processed; Size: 723MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Processed; Size: 95MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Processed; Size: 95MB
+  MG: Fact AA OP METRICS OR DAYS; Status: Processed; Size: 2MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Processed; Size: 2MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 13MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Processed; Size: 26MB
+   Partition: Fact AA CS History                 ; Status: Processed; Size: 26MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+ Cube: CPT_Details
+  MG: Vw CPT Details           ; Status: Processed; Size: 788MB
+   Partition: Vw CPT Details                     ; Status: Processed; Size: 788MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 12MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 12MB
+  MG: Vw Dim Calendar          ; Status: Processed; Size: 0MB
+   Partition: Vw Dim Calendar                    ; Status: Processed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Processed; Size: 4,800MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 4,800MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 24MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 24MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+ Cube: Payor Mix Cube
+  MG: Fact Reserve Rate        ; Status: Processed; Size: 14MB
+   Partition: Vw Fact Reserve Rate               ; Status: Processed; Size: 14MB
+  MG: Fact Service Mix         ; Status: Processed; Size: 85MB
+   Partition: Vw Fact Service Mix                ; Status: Processed; Size: 85MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 13MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 13MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Processed; Size: 284MB
+   Partition: Fact PDX CS History                ; Status: Processed; Size: 284MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim CPT Source
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim Referring Provider Names
+Dimension: Dim_Calendar
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_Same_Store_Details
+Dimension: DOS_Calendar
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Master Employee List
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: PAU Master
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: OGI Master
+Database: ALEX_FW_DEV05; Status: PartiallyProcessed; Size: 328MB
+ Cube: Operational Summary Cube
+  MG: Fact GLAMOUNTS           ; Status: Processed; Size: 262MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 262MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 1MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 1MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_PAU_Master_SS
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Database: SAMESTORE_TEST5; Status: PartiallyProcessed; Size: 414MB
+ Cube: Operational Summary Cube
+  MG: Fact GLAMOUNTS           ; Status: Processed; Size: 335MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 335MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 2MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 2MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+  MG: Bridge PAU SS            ; Status: Processed; Size: 20MB
+   Partition: Vw Bridge PAU SS MTD               ; Status: Processed; Size: 20MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_PAU_Master_SS
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Same Store Selector2
+Dimension: Dim_OpsSum_COA
+Database: SAMESTORE_TEST7; Status: PartiallyProcessed; Size: 402MB
+ Cube: Operational Summary Cube
+  MG: Fact GLAMOUNTS           ; Status: Processed; Size: 326MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 326MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 2MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 2MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+  MG: Bridge PAU SS            ; Status: Processed; Size: 20MB
+   Partition: Vw Bridge PAU SS MTD               ; Status: Processed; Size: 20MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_PAU_Master_SS
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Same Store Selector2
+Database: ALEX_FW_DEV08F; Status: PartiallyProcessed; Size: 1,541MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+  MG: Vw Fact AA OP METRICS OR DAYS; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA CS History                 ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Processed; Size: 1,462MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 1,462MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 2MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 2MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+ Cube: PDX Service Mix Cube
+  MG: Fact Reserve Rate        ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Reserve Rate               ; Status: Unprocessed; Size: 0MB
+  MG: Fact Service Mix         ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Service Mix                ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Unprocessed; Size: 0MB
+   Partition: Fact PDX CS History                ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Database: FW_PRODALEX; Status: PartiallyProcessed; Size: 1,537MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+  MG: Vw Fact AA OP METRICS OR DAYS; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Unprocessed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: COA2
+Dimension: COA
+Dimension: GA Division
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA CS History                 ; Status: Unprocessed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: COA2
+Dimension: COA
+Dimension: GA Division
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Processed; Size: 1,462MB
+   Partition: Fact GLAMOUNTS                     ; Status: Processed; Size: 1,462MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 2MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 2MB
+  MG: Dim Calendar             ; Status: Processed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Processed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: COA2
+Dimension: COA
+Dimension: GA Division
+ Cube: PDX Service Mix Cube
+  MG: Fact Reserve Rate        ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Reserve Rate               ; Status: Unprocessed; Size: 0MB
+  MG: Fact Service Mix         ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Service Mix                ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: COA2
+Dimension: COA
+Dimension: GA Division
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Unprocessed; Size: 0MB
+   Partition: Fact PDX CS History                ; Status: Unprocessed; Size: 0MB
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_OpsSum_COA
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: COA2
+Dimension: COA
+Dimension: GA Division
+Database: GOFinanceFact; Status: Processed; Size: 3MB
+ Cube: GO Finance Fact
+  MG: GO Finance Fact          ; Status: Processed; Size: 2MB
+   Partition: GO Finance Fact                    ; Status: Processed; Size: 2MB
+Dimension: Accounts
+Dimension: Organization
+Dimension: Submission
+Dimension: Time
+Database: GoSalesFact; Status: Processed; Size: 12MB
+ Cube: GO Sales Fact
+  MG: GO Sales Fact            ; Status: Processed; Size: 11MB
+   Partition: GO Sales Fact                      ; Status: Processed; Size: 11MB
+Dimension: Order method
+Dimension: Organization
+Dimension: Product
+Dimension: Retailers
+Dimension: Sales Region
+Dimension: Staff
+Dimension: Time
+Database: Patricks_Test; Status: Processed; Size: 56MB
+ Cube: Financial DW DEV 1
+  MG: Fact Service Mix         ; Status: Processed; Size: 1MB
+   Partition: Fact Service Mix                   ; Status: Processed; Size: 1MB
+  MG: Dim Same Store Details   ; Status: Processed; Size: 10MB
+   Partition: Dim Same Store Details             ; Status: Processed; Size: 10MB
+  MG: Relative YTD Roll Up     ; Status: Processed; Size: 0MB
+   Partition: Relative YTD Roll Up               ; Status: Processed; Size: 0MB
+Dimension: dim PAU
+Dimension: Dim Date
+Dimension: Same Store Date
+Dimension: Dim Same Store Details
+Database: FinancialWarehouse Cubes_CPTTEST; Status: PartiallyProcessed; Size: 283MB
+ Cube: AA Operational Metrics Cube
+  MG: Fact AA OP METRICS       ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS              ; Status: Unprocessed; Size: 0MB
+  MG: Fact AA OP METRICS OR DAYS; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact AA OP METRICS OR DAYS      ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+ Cube: AA_ChargeSummary_History
+  MG: Fact AA CS History       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA CS History                 ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+ Cube: Operational Summary Cube
+  MG: Fact OPSUM AMOUNTS       ; Status: Unprocessed; Size: 0MB
+   Partition: Fact GLAMOUNTS                     ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+  MG: Dim Calendar             ; Status: Unprocessed; Size: 0MB
+   Partition: Dim Calendar                       ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+ Cube: Payor Mix Cube
+  MG: Fact Reserve Rate        ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Reserve Rate               ; Status: Unprocessed; Size: 0MB
+  MG: Fact Service Mix         ; Status: Unprocessed; Size: 0MB
+   Partition: Vw Fact Service Mix                ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+ Cube: PDX_ChargeSummary_History
+  MG: Fact PDX CS History      ; Status: Unprocessed; Size: 0MB
+   Partition: Fact PDX CS History                ; Status: Unprocessed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+ Cube: CPT_Details
+  MG: Vw CPT Details           ; Status: Processed; Size: 231MB
+   Partition: Vw CPT Details                     ; Status: Processed; Size: 231MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 8MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 8MB
+  MG: Vw Dim Calendar          ; Status: Processed; Size: 0MB
+   Partition: Vw Dim Calendar                    ; Status: Processed; Size: 0MB
+Dimension: COA
+Dimension: Dashboard Location Rollup
+Dimension: Date Calculations
+Dimension: Date Type
+Dimension: Dim AA CS History Financial Classes
+Dimension: Dim AA CS History Primary Payer
+Dimension: Dim PDX CS History Financial Class
+Dimension: Dim PDX CS History Primary Payer
+Dimension: Dim_Calendar
+Dimension: Dim_Master_Employee_List
+Dimension: Dim_OpsSumCOA_Dashbrd_ANS
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX
+Dimension: Dim_OpsSumCOA_Dashbrd_PDX2
+Dimension: Dim_PAU_Master
+Dimension: Dim_Same_Store_Details
+Dimension: Executive Summary Chart Of Accounts
+Dimension: Financial Class
+Dimension: GA Department
+Dimension: GA Departments
+Dimension: GA Dept Group
+Dimension: GA Dept Rollup
+Dimension: GA Division
+Dimension: Metric Description
+Dimension: OP SUM Dashboard ANS Chart Of Accounts
+Dimension: OP SUM Dashboard PDX Chart Of Accounts
+Dimension: Procedures Rollup
+Dimension: Providers
+Dimension: Same Store Selector
+Dimension: Service Line Rollup
+Dimension: Dim CPT RENDERING TYPES
+Dimension: Dim Procedure Code Grouping
+Dimension: Dim CPT LOCATION NAMES
+Dimension: Dim CPT OR NAMES
+Dimension: Dim Referring Provider Names
+Dimension: Dim CPT Source
+Database: EOM Analysis Datamart; Status: Processed; Size: 6,337MB
+ Cube: Account Aging
+  MG: View Account Aging Cube  ; Status: Processed; Size: 31MB
+   Partition: View Account Aging Cube            ; Status: Processed; Size: 31MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Charge Payer Collection Rate
+  MG: View Collection Rate     ; Status: Processed; Size: 90MB
+   Partition: View Collection Rate               ; Status: Processed; Size: 90MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Contract Evaluation
+  MG: View Contract Evaluation ; Status: Processed; Size: 371MB
+   Partition: View Contract Evaluation           ; Status: Processed; Size: 371MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Contract Eval Current Period Pay
+  MG: View Contract Eval Current Period Pay; Status: Processed; Size: 34MB
+   Partition: View Contract Eval Current Period Pay; Status: Processed; Size: 34MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+Database: EOM Analysis Datamart Archive May_2016; Status: Processed; Size: 6,337MB
+ Cube: Account Aging
+  MG: View Account Aging Cube  ; Status: Processed; Size: 31MB
+   Partition: View Account Aging Cube            ; Status: Processed; Size: 31MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Charge Payer Collection Rate
+  MG: View Collection Rate     ; Status: Processed; Size: 90MB
+   Partition: View Collection Rate               ; Status: Processed; Size: 90MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Contract Evaluation
+  MG: View Contract Evaluation ; Status: Processed; Size: 371MB
+   Partition: View Contract Evaluation           ; Status: Processed; Size: 371MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+ Cube: Contract Eval Current Period Pay
+  MG: View Contract Eval Current Period Pay; Status: Processed; Size: 33MB
+   Partition: View Contract Eval Current Period Pay; Status: Processed; Size: 33MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Dimension: Dim Con Eval Contract Affiliate Name
+Dimension: Dim Con Eval Policy Number
+Dimension: Dim Con Eval Balance Status
+Dimension: Dim Con Eval Group Number
+Dimension: Dim Con Eval Charge ID
+Dimension: Dim Con Eval Subscriber Name
+Dimension: Dim Con Eval Payer Code
+Dimension: Dim Con Eval CPP Allowable Entered
+Dimension: Dim Con Eval CPP Charge ID
+Dimension: Dim Con Eval CPP Contract Code
+Dimension: Dim Con Eval CPP CPT Modifier Code
+Dimension: Dim Con Eval CPP Current Payer
+Dimension: Dim Con Eval CPP Encounter Number
+Dimension: Dim Con Eval CPP Facilities
+Dimension: Dim Con Eval CPP Hearing Screen Flag
+Dimension: Dim Con Eval CPP Or GPMS Patients
+Dimension: Dim Con Eval CPP Payers
+Dimension: Dim Con Eval CPP Posting Date
+Dimension: Dim Con Eval CPP Practice Codes
+Dimension: Dim Con Eval CPP Procedure Codes
+Dimension: Dim Con Eval CPP Provider Descriptions
+Dimension: Dim Con Eval CPP Provider Group Region Name
+Dimension: Dim Con Eval CPP Service Dates
+Dimension: Dim Con Eval CPP Contract Affiliate Name
+Dimension: Dim Con Eval CPP Group Number
+Dimension: Dim Con Eval CPP Last Payment Acct Period
+Dimension: Dim Con Eval CPP Policy Number
+Dimension: Dim Con Eval CPP Subscriber Name
+Database: EOM Analysis Datamart Archive Apr_2016; Status: Processed; Size: 3,010MB
+ Cube: Account Aging
+  MG: View Account Aging Cube  ; Status: Processed; Size: 31MB
+   Partition: View Account Aging Cube            ; Status: Processed; Size: 31MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+ Cube: Charge Payer Collection Rate
+  MG: View Collection Rate     ; Status: Processed; Size: 93MB
+   Partition: View Collection Rate               ; Status: Processed; Size: 93MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+ Cube: Contract Evaluation
+  MG: View Contract Evaluation ; Status: Processed; Size: 209MB
+   Partition: View Contract Evaluation           ; Status: Processed; Size: 209MB
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Aging Account Number
+Dimension: dim_Aging_DOS_Age_Code
+Dimension: Dim Aging Posting Date
+Dimension: Dim Aging Acquisition Date
+Dimension: Dim Aging Owner Of Tickler Queue
+Dimension: Dim Aging ODOP Date
+Dimension: Aging Codes
+Dimension: Dim Aging Region Code
+Dimension: Dim Aging Group Of Acquisition Date
+Dimension: Dim Aging Group Of Aging Code Dop
+Dimension: Dim Aging Group Of Aging Code Dos
+Dimension: Dim Aging Days From ODOP
+Dimension: Dim Aging Opd
+Dimension: Dim Aging Source System
+Dimension: Dim Coll Rate Accounting Period
+Dimension: Dim Coll Rate Billing Area Group Name
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate CPT Modifier Code
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate GPMS Ins Class Codes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Con Eval Contract Code
+Dimension: Dim Con Eval CPT Modifier Code
+Dimension: Dim Con Eval Or GPMS Patients
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Service Dates
+Dimension: dim_ConEval_View_Provider_Descriptions
+Database: RCM Analysis Datamart; Status: Processed; Size: 83MB
+ Cube: Census Days
+  MG: Census Admissions        ; Status: Processed; Size: 4MB
+   Partition: Adaytum Census Admits Tieout Historical; Status: Processed; Size: 4MB
+  MG: Census Patient Days      ; Status: Processed; Size: 2MB
+   Partition: Adaytum Census Patient Days Tieout Historical; Status: Processed; Size: 2MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Hearing Screens
+  MG: View Hearing Screens     ; Status: Processed; Size: 89MB
+   Partition: View Hearing Screens               ; Status: Processed; Size: 89MB
+  MG: View Hearing Screen Aging; Status: Processed; Size: 2MB
+   Partition: View Hearing Screen Aging          ; Status: Processed; Size: 2MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Primary Payer Unit CPT
+  MG: View Primary Payer Unit Cpt; Status: Processed; Size: 163MB
+   Partition: View Primary Payer Unit Cpt        ; Status: Processed; Size: 163MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Residual Balances
+  MG: View Residual Balances Query; Status: Processed; Size: 1MB
+   Partition: View Residual Balances Query       ; Status: Processed; Size: 1MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Contract Evaluation
+  MG: Temp Contract Evaluation ; Status: Processed; Size: 113MB
+   Partition: Temp Contract Evaluation           ; Status: Processed; Size: 113MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: CM_Information
+  MG: CM Hospitals Counts      ; Status: Processed; Size: 2MB
+   Partition: CM Hospitals Counts                ; Status: Processed; Size: 2MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Account Aging
+  MG: View Account Aging Cube  ; Status: Processed; Size: 8MB
+   Partition: View Account Aging Cube            ; Status: Processed; Size: 8MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Hold Accrual
+  MG: View Hold Accrual        ; Status: Processed; Size: 10MB
+   Partition: View Hold Accrual                  ; Status: Processed; Size: 10MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+ Cube: Charge Payer Collection Rate
+  MG: Collection Rates         ; Status: Processed; Size: 42MB
+   Partition: Collection Rates                   ; Status: Processed; Size: 42MB
+Dimension: Dim Census Dates
+Dimension: Dim Census Date Of Service
+Dimension: Dim Census Cateogry
+Dimension: Dim Census Provider Group Name
+Dimension: Dim Census Hospital Codes
+Dimension: Dim HS Payers
+Dimension: Dim HS Hospital Codes
+Dimension: Dim HS Account Indicator
+Dimension: Dim HS Service Dates
+Dimension: Dim Charge Balance Ind
+Dimension: Dim HS Aging Accounting Period
+Dimension: Dim HS Aging Code Posting Date
+Dimension: Dim PPU Procedure Grouping
+Dimension: Dim PPU Periods
+Dimension: Dim PPU Peri Group
+Dimension: Dim PPU Cardio
+Dimension: Dim PPU Neo
+Dimension: Dim PPU Hospital Codes
+Dimension: Dim PPU Billing Areas
+Dimension: Dim PPU Practice Code
+Dimension: Dim PPU Financial Class
+Dimension: Dim PPU Department
+Dimension: Dim PPU Procedure Codes
+Dimension: Dim R Bal Payer Financial Class
+Dimension: Dim R Bal Current Financial Class
+Dimension: Dim R Bal Aging Code Posting Date
+Dimension: Dim R Bal Service Code Posting Date
+Dimension: Dim R Bal Practice Code
+Dimension: Dim R Bal GPMS Ins Class Codes
+Dimension: Dim R Bal Current Payer Code
+Dimension: Dim R Bal Hospital Codes
+Dimension: Dim R Bal Queue Code
+Dimension: Dim R Bal StmtGrp Financial Class
+Dimension: Dim ConEval Provider Group Region Name
+Dimension: Dim ConEval Hearing Screen Flag
+Dimension: Dim ConEval Allowable Entered
+Dimension: Dim ConEval Payer Fin Class Code
+Dimension: Dim ConEval Contract Code
+Dimension: Dim ConEval Current Payer
+Dimension: Dim ConEval Practice Codes
+Dimension: Dim ConEval Accounting Period
+Dimension: Dim ConEval Service Dates
+Dimension: Dim ConEval Procedure Codes
+Dimension: Dim ConEval Facilities
+Dimension: Dim ConEval Provider Group Name
+Dimension: Dim CM Admit Hospital
+Dimension: Dim CM Srv Hospital
+Dimension: Dim CM Worked By
+Dimension: Dim CM A4
+Dimension: Dim CM Procedure Codes
+Dimension: Dim CM Specialty Code
+Dimension: Dim CM Payer Codes
+Dimension: Dim CM Service Date
+Dimension: Dim CM Import Month
+Dimension: Dim CM Standard Charges
+Dimension: Dim Aging Balance Indicator
+Dimension: Dim Aging Hospital Code
+Dimension: Dim Aging Practice Code
+Dimension: Dim Aging Billing Area
+Dimension: Dim Aging Contract Affl Name
+Dimension: Dim Aging Contract
+Dimension: Dim Aging Current Payer
+Dimension: Dim Aging Pri Fin Class
+Dimension: Dim Aging DOP Code
+Dimension: Dim Aging DOS Age Code
+Dimension: Dim Aging HS Indicator
+Dimension: Dim Aging Bill Area Group Name
+Dimension: Dim Aging GPMS Ins Class
+Dimension: Dim Aging Queue Code
+Dimension: Dim Aging Statement Group
+Dimension: Dim Aging Provider Group Name
+Dimension: Dim Aging Specialty
+Dimension: Dim Aging Responsibility Code
+Dimension: Dim Hld Acc Facilities
+Dimension: Dim Hld Acc Payers
+Dimension: Dim Hld Acc Provider Groups
+Dimension: Dim Hld Acc Billing Area Report Groupings
+Dimension: Dim Hld Acc Accounting Period
+Dimension: Dim Hld Acc Created Date
+Dimension: Dim Hld Acc Released Date
+Dimension: Dim Hld Acc Service Date
+Dimension: Dim Hld Acc Procedure Code
+Dimension: Dim Hld Acc Override Flag
+Dimension: Dim ConEval Chg Adj Balance Flag
+Dimension: Dim Coll Rate Procedure Codes
+Dimension: Dim Coll Rate Payers
+Dimension: Dim Coll Rate Payer Financial Classes
+Dimension: Dim Coll Rate GPMS Practices
+Dimension: Dim Coll Rate Billing Areas
+Dimension: Dim Coll Rate HS Indicator
+Dimension: Dim Coll Rate Facilities
+Dimension: Dim Coll Rate Accounting Period
+Database: AA Financials Archive Feb_2017; Status: Processed; Size: 2,569MB
+ Cube: AA Transactions
+  MG: Fact AA Transactions     ; Status: Processed; Size: 2,446MB
+   Partition: Fact AA Transactions               ; Status: Processed; Size: 2,446MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 8MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 8MB
+Dimension: Dim_Same_Store_Details
+Dimension: Dim_PAU_Master
+Dimension: Vw Dim Acct Period Calendar
+Dimension: Vw Dim DOS Period Calendar
+Dimension: Dim AA Transaction Type
+Dimension: Dim AA Financial Class
+Dimension: Dim AA Stat JE
+Dimension: Dim AA DB JE
+Dimension: Dim AA CR JE
+Dimension: Dim AA Location Rollup
+Dimension: Dim Master Employee List
+Database: AA Financials; Status: Processed; Size: 18,374MB
+ Cube: AA Transactions
+  MG: Fact AA Transactions     ; Status: Processed; Size: 10,420MB
+   Partition: Fact AA Transactions               ; Status: Processed; Size: 10,420MB
+  MG: X Ref User PAU           ; Status: Processed; Size: 9MB
+   Partition: X Ref User PAU                     ; Status: Processed; Size: 9MB
+Dimension: Dim_Same_Store_Details
+Dimension: Dim_PAU_Master
+Dimension: Vw Dim Acct Period Calendar
+Dimension: Vw Dim DOS Period Calendar
+Dimension: Dim AA Transaction Type
+Dimension: Dim AA Financial Class
+Dimension: Dim AA Stat JE
+Dimension: Dim AA DB JE
+Dimension: Dim AA CR JE
+Dimension: Dim AA Location Rollup
+Dimension: Dim Master Employee List
+Dimension: Dim AA Medical Direction
+Dimension: Dim AA Procedures
+Dimension: Dim AA Person
+Database: AA Financials Archive Jun_2017; Status: PartiallyProcessed; Size: 169MB
+ Cube: AA Transactions
+  MG: Fact AA Transactions     ; Status: Unprocessed; Size: 0MB
+   Partition: Fact AA Transactions               ; Status: Unprocessed; Size: 0MB
+  MG: X Ref User PAU           ; Status: Unprocessed; Size: 0MB
+   Partition: X Ref User PAU                     ; Status: Unprocessed; Size: 0MB
+Dimension: Dim_Same_Store_Details
+Dimension: Dim_PAU_Master
+Dimension: Vw Dim Acct Period Calendar
+Dimension: Vw Dim DOS Period Calendar
+Dimension: Dim AA Transaction Type
+Dimension: Dim AA Financial Class
+Dimension: Dim AA Stat JE
+Dimension: Dim AA DB JE
+Dimension: Dim AA CR JE
+Dimension: Dim AA Location Rollup
+Dimension: Dim Master Employee List
+Dimension: Dim AA Medical Direction
+Dimension: Dim AA Procedures
+Dimension: Dim AA Person

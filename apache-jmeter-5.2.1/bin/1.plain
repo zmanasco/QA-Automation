@@ -1,0 +1,31 @@
+TABLE_CATALOG	TABLE_SCHEMA	TABLE_NAME	TABLE_TYPE
+FinCon_DM	source	Employees	VIEW
+FinCon_DM	source	Facilities	VIEW
+FinCon_DM	source	Gross_Charges	VIEW
+FinCon_DM	source	Lawson_UltiPro	VIEW
+FinCon_DM	source	Provider_To_Employee	VIEW
+FinCon_DM	ent	Facility	VIEW
+FinCon_DM	ent	Accounting_Period	VIEW
+FinCon_DM	ent	Operational_Summary_COA	VIEW
+FinCon_DM	ent	PAU	VIEW
+FinCon_DM	dbo	__RefactorLog	BASE TABLE
+FinCon_DM	ent	Employee	VIEW
+FinCon_DM	ent	Measures	VIEW
+FinCon_DM	ent_tables	Employee	BASE TABLE
+FinCon_DM	ent_tables	Facility	BASE TABLE
+FinCon_DM	ent_tables	Measures	BASE TABLE
+FinCon_DM	source_tables	Employees	BASE TABLE
+FinCon_DM	source_tables	Facilities	BASE TABLE
+FinCon_DM	source_tables	Gross_Charges	BASE TABLE
+FinCon_DM	source_tables	Lawson_UltiPro	BASE TABLE
+FinCon_DM	source_tables	Provider_To_Employee	BASE TABLE
+FinCon_DM	security	tbl_Full_Access_Users	BASE TABLE
+FinCon_DM	security	tbl_Record_Security_by_User_by_Employee	BASE TABLE
+FinCon_DM	security	tbl_Record_Security_by_User_by_PAU	BASE TABLE
+FinCon_DM	security	tbl_Security_Type_To_Sensitivity_Level_Lookup	BASE TABLE
+FinCon_DM	security	tbl_Stage_Record_Security_by_User_by_PAU	BASE TABLE
+FinCon_DM	security	vw_ETL_Record_Security_by_User_by_PAU_to_Employee	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_Employee_General	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_Employee_Salary	VIEW
+FinCon_DM	source	PAU_Lookup	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_PAU	VIEW

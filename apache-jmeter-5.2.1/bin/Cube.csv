@@ -1,0 +1,82 @@
+drop table if exists #prep_a    
+    SELECT
+cfd.dimAllAttrib_Key,
+CFD.Source_System_ID,
+ISNULL(cfd.Practice_Code,'NullPrac')Practice_Code,
+CFD.Charge_Financial_Detail_ID,
+AR_TYPE_ID,
+cfd.Division_ID,
+trim(STR(CFD.Billing_Details_ID))BILLING_DETAILS_IDx,
+trim(STR(CFD.Charge_Number))CHARGE_NUMBERX,
+CHARGE_NUMBER,
+CFD.VisitCharges_ID,
+CFD.Billing_Details_ID,
+CFD.CPT_Modifier_Code,
+cfd.procedure_Code,
+cfd.Provider_Code,
+cfd.Service_Date,
+cfd.Period_ID,
+CFD.GPMS_Pos_Code,
+
+ 
+
+case when Division_ID = 2 AND VisitCharges_ID IS NOT NULL then VisitCharges_ID +CONVERT(VARCHAR,CFD.SERVICE_DATE,101)+ISNULL(cfd.Practice_Code,'NullPrac')
+when Division_ID = 1 AND AR_Type_ID =1 then trim(STR(CFD.Charge_Number)) +CONVERT(VARCHAR,CFD.SERVICE_DATE,101)+ISNULL(cfd.Practice_Code,'NullPrac')
+when Division_ID = 1 AND AR_Type_ID =2 and Source_System_ID <>2 then trim(STR(CFD.Billing_Details_ID)) +CONVERT(VARCHAR,CFD.SERVICE_DATE,101)+ISNULL(cfd.Practice_Code,'NullPrac')
+            when AR_TYPE_ID=2 and Source_System_ID=2 then 
+                                            
+
+ 
+
+trim(str(isnull(Billing_Details_ID,0)))+
+isnull(CPT_Modifier_Code,'00')+
+trim(isnull(Procedure_Code,0))+
+trim(isnull(Provider_Code,0))+
+convert(varchar,service_date,101)
+end as UniqueNum
+
+ 
+
+into #prep_a --rr_initate_cube_table_a
+
+ 
+
+FROM 
+dbo.Charge_Financial_Details CFD 
+where CFD.Service_Date>'20151231' and cfd.dimAllAttrib_Key is not null
+--and year(cfd.service_date)=2016
+--and Charge_Number =     19267295 and practice_code = 'N46'
+--and Billing_Details_ID = 85918244 and Practice_Code = 'pva'
+
+ 
+
+DROP TABLE IF EXISTS #get_max_per
+select  UniqueNum, max(period_id )PERIOD_ID INTO #get_max_per  from 
+#prep_a 
+
+ 
+
+ group by 
+ UniqueNum
+
+ 
+
+ 
+ DROP TABLE IF EXISTS #get_max_att 
+ -- adding max(dimallatrib) because if there are two attributes for the same period the biggest one wins
+ SELECT 
+ b.UniqueNum,
+  max(B.dimAllAttrib_Key) as dimAllAttrib_Key_cur
+ 
+ --INTO #get_max_att FROM #get_max_per A INNER JOIN 
+ #prep_a B ON A.UniqueNum = B.UniqueNum  AND A.PERIOD_ID = B.Period_ID
+ 
+ group by b.UniqueNum
+ insert rr_initate_cube_table_aa
+select distinct   b.dimAllAttrib_Key_cur, a.*  from #prep_a a inner join 
+ #get_max_att b on a.UniqueNum  = b.uniquenum  
+
+ 
+
+
+ -- select * from #prep_a

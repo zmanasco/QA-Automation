@@ -1,0 +1,23 @@
+------=_Part_8_13802874.1587029715619
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test failed: text expected to equal /
+
+****** received  : ..._to_Employee	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_Employee_General	VIEW
+FinCon_DM	s[[[ource	PAU_Lookup	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_Employee_Salary]]]	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_PAU	VIEW
+
+
+****** comparison: ..._to_Employee	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_Employee_General	VIEW
+FinCon_DM	s[[[ecurity	vw_Record_Security_by_User_by_Employee_Salary	VIEW
+FinCon_DM	source	PAU_Lookup]]]	VIEW
+FinCon_DM	security	vw_Record_Security_by_User_by_PAU	VIEW
+
+
+/
+
+------=_Part_8_13802874.1587029715619--

@@ -1,0 +1,1049 @@
+2020-04-16 05:30:53,611 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-04-16 05:30:53,630 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-04-16 05:30:53,632 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: Version 5.2.1
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: java.version=1.8.0_221
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: os.name=Windows 10
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: os.arch=x86
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: os.version=10.0
+2020-04-16 05:30:53,634 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-04-16 05:30:53,635 INFO o.a.j.JMeter: java.awt.headless=null
+2020-04-16 05:30:53,635 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-04-16 05:30:53,635 INFO o.a.j.JMeter: Available Processors =4
+2020-04-16 05:30:53,642 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-04-16 05:30:53,642 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-04-16 05:30:53,642 INFO o.a.j.JMeter: JMeterHome=C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1
+2020-04-16 05:30:53,642 INFO o.a.j.JMeter: user.dir  =C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin
+2020-04-16 05:30:53,643 INFO o.a.j.JMeter: PWD       =C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin
+2020-04-16 05:30:53,645 INFO o.a.j.JMeter: IP: 10.70.242.157 Name: LAP121-71443 FullName: LAP121-71443.corp.pediatrix.net
+2020-04-16 05:30:53,996 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-04-16 05:30:54,035 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.sun.java.swing.plaf.windows.WindowsLookAndFeel [Darcula]
+2020-04-16 05:30:54,035 INFO o.a.j.JMeter: Setting LAF to: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2020-04-16 05:30:54,074 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-04-16 05:30:56,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-16 05:30:56,392 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-16 05:30:56,392 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-16 05:30:56,392 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-16 05:30:56,392 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-16 05:30:56,392 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-16 05:30:56,597 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2020-04-16 05:30:57,055 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files (x86)\Java\jre1.8.0_221\bin\keytool'
+2020-04-16 05:30:57,055 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2020-04-16 05:30:57,244 INFO o.a.j.s.FileServer: Default base='C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin'
+2020-04-16 05:30:58,592 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-16 05:30:58,592 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-16 05:30:58,592 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-16 05:30:58,592 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-16 05:31:06,464 INFO o.a.j.g.a.Load: Loading file: C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin\JDBCRequest.jmx
+2020-04-16 05:31:06,464 INFO o.a.j.s.FileServer: Set new base='C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin'
+2020-04-16 05:31:06,648 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-16 05:31:06,656 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-16 05:31:06,658 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-16 05:31:06,662 INFO o.a.j.s.SaveService: Loading file: C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin\JDBCRequest.jmx
+2020-04-16 05:31:07,130 ERROR o.a.j.p.j.c.g.JavaConfigGui: Error creating class:'com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass' in JavaSampler Java Request, check for a missing jar in your jmeter 'search_paths' and 'plugin_dependency_paths' properties
+java.lang.ClassNotFoundException: com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_221]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.classOk(JavaConfigGui.java:272) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.configure(JavaConfigGui.java:260) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.control.gui.JavaTestSamplerGui.configure(JavaTestSamplerGui.java:88) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:159) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:200) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:67) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.2.1]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:31:07,136 ERROR o.a.j.p.j.c.g.JavaConfigGui: Error getting argument list for com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass
+java.lang.ClassNotFoundException: com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_221]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.configureClassName(JavaConfigGui.java:192) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.stateChanged(JavaConfigGui.java:182) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jorphan.gui.JLabeledChoice.notifyChangeListeners(JLabeledChoice.java:288) ~[jorphan.jar:5.2.1]
+	at org.apache.jorphan.gui.JLabeledChoice.lambda$init$0(JLabeledChoice.java:145) ~[jorphan.jar:5.2.1]
+	at javax.swing.JComboBox.fireItemStateChanged(Unknown Source) ~[?:1.8.0_221]
+	at javax.swing.JComboBox.selectedItemChanged(Unknown Source) ~[?:1.8.0_221]
+	at javax.swing.JComboBox.contentsChanged(Unknown Source) ~[?:1.8.0_221]
+	at javax.swing.AbstractListModel.fireContentsChanged(Unknown Source) ~[?:1.8.0_221]
+	at javax.swing.DefaultComboBoxModel.setSelectedItem(Unknown Source) ~[?:1.8.0_221]
+	at javax.swing.JComboBox.setSelectedItem(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jorphan.gui.JLabeledChoice.setText(JLabeledChoice.java:188) ~[jorphan.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.configure(JavaConfigGui.java:261) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.control.gui.JavaTestSamplerGui.configure(JavaTestSamplerGui.java:88) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:159) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:200) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:67) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.2.1]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:31:07,138 ERROR o.a.j.p.j.c.g.JavaConfigGui: Error getting argument list for com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass
+java.lang.ClassNotFoundException: com.wordpress.newspaint.jmeter.java.demo.ExampleJavaTestClass
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_221]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.configureClassName(JavaConfigGui.java:192) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.config.gui.JavaConfigGui.configure(JavaConfigGui.java:262) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.protocol.java.control.gui.JavaTestSamplerGui.configure(JavaTestSamplerGui.java:88) ~[ApacheJMeter_java.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:159) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:200) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:67) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.2.1]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_221]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:31:08,661 INFO o.a.j.s.FileServer: Set new base='C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin'
+2020-04-16 05:31:37,145 INFO o.a.j.s.FileServer: Set new base='C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\bin'
+2020-04-16 05:31:44,864 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:31:44,866 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:31:44,866 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:31:44,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-04-16 05:31:44,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-04-16 05:31:45,196 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:31:45,434 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:31:45,631 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Azure to Azure
+2020-04-16 05:31:45,631 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Azure to Azure.
+2020-04-16 05:31:45,631 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:31:45,631 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:31:45,638 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:31:45,638 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:31:45,639 INFO o.a.j.t.JMeterThread: Thread started: Azure to Azure 1-1
+2020-04-16 05:31:46,023 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script1.run(Script1.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:31:46,044 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script2.run(Script2.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:31:46,053 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:31:46,053 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:32:02,453 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script1.run(Script1.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:32:02,456 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script2.run(Script2.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:32:03,496 INFO c.m.a.a.AuthenticationAuthority: [Correlation ID: 9010f3e0-3685-4a36-ab17-9636fa42db6e] Instance discovery was successful
+2020-04-16 05:32:04,475 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script1.run(Script1.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:32:04,485 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script2.run(Script2.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:32:04,524 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:32:07,000 INFO o.a.j.t.JMeterThread: Thread is done: Azure to Azure 1-1
+2020-04-16 05:32:07,000 INFO o.a.j.t.JMeterThread: Thread finished: Azure to Azure 1-1
+2020-04-16 05:32:07,002 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:32:07,005 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:33:04,617 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:33:04,617 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:33:04,618 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:33:04,623 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:33:04,834 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : SQL to SQL
+2020-04-16 05:33:04,834 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SQL to SQL.
+2020-04-16 05:33:04,834 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:33:04,834 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:33:04,841 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:33:04,841 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:33:04,842 INFO o.a.j.t.JMeterThread: Thread started: SQL to SQL 1-1
+2020-04-16 05:33:04,868 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script3.run(Script3.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:04,893 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script4.run(Script4.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:04,895 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:33:04,895 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:33:06,042 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script3.run(Script3.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:06,045 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script4.run(Script4.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:07,098 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script3.run(Script3.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:07,106 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script4.run(Script4.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:07,114 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:33:07,985 WARN o.a.j.p.s.s.SmtpSampler: 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 123sm5065860vsz.33 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:295) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:176) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at org.apache.jmeter.protocol.smtp.sampler.protocol.SendMailCommand.execute(SendMailCommand.java:324) ~[ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.executeMessage(SmtpSampler.java:170) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.sample(SmtpSampler.java:147) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:627) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:551) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:33:07,990 INFO o.a.j.t.JMeterThread: Thread is done: SQL to SQL 1-1
+2020-04-16 05:33:07,990 INFO o.a.j.t.JMeterThread: Thread finished: SQL to SQL 1-1
+2020-04-16 05:33:07,990 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:33:07,991 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:33:35,786 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:33:35,786 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:33:35,787 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:33:35,788 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:33:35,991 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : SQL to SQL
+2020-04-16 05:33:35,991 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SQL to SQL.
+2020-04-16 05:33:35,991 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:33:35,991 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:33:35,997 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:33:35,997 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:33:35,998 INFO o.a.j.t.JMeterThread: Thread started: SQL to SQL 1-1
+2020-04-16 05:33:36,020 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script5.run(Script5.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:36,040 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script6.run(Script6.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:36,042 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:33:36,042 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:33:39,427 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script6.run(Script6.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:33:42,308 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:33:43,112 WARN o.a.j.p.s.s.SmtpSampler: 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 101sm3960772uaf.8 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:295) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:176) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at org.apache.jmeter.protocol.smtp.sampler.protocol.SendMailCommand.execute(SendMailCommand.java:324) ~[ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.executeMessage(SmtpSampler.java:170) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.sample(SmtpSampler.java:147) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:627) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:551) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:33:43,119 INFO o.a.j.t.JMeterThread: Thread is done: SQL to SQL 1-1
+2020-04-16 05:33:43,119 INFO o.a.j.t.JMeterThread: Thread finished: SQL to SQL 1-1
+2020-04-16 05:33:43,119 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:33:43,125 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:34:08,261 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:34:08,261 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:34:08,262 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:34:08,267 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:34:08,470 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : SQL to SQL
+2020-04-16 05:34:08,470 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SQL to SQL.
+2020-04-16 05:34:08,470 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:34:08,470 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:34:08,475 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:34:08,475 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:34:08,476 INFO o.a.j.t.JMeterThread: Thread started: SQL to SQL 1-1
+2020-04-16 05:34:08,494 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script7.run(Script7.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:34:08,511 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script8.run(Script8.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:34:08,512 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:34:08,512 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:34:14,428 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script8.run(Script8.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:34:17,289 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:34:18,099 WARN o.a.j.p.s.s.SmtpSampler: 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o129sm5063355vsc.34 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:295) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at javax.mail.Service.connect(Service.java:176) ~[mail-1.5.0-b01.jar:1.5.0-b01]
+	at org.apache.jmeter.protocol.smtp.sampler.protocol.SendMailCommand.execute(SendMailCommand.java:324) ~[ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.executeMessage(SmtpSampler.java:170) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.protocol.smtp.sampler.SmtpSampler.sample(SmtpSampler.java:147) [ApacheJMeter_mail.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:627) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:551) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:34:18,113 INFO o.a.j.t.JMeterThread: Thread is done: SQL to SQL 1-1
+2020-04-16 05:34:18,113 INFO o.a.j.t.JMeterThread: Thread finished: SQL to SQL 1-1
+2020-04-16 05:34:18,114 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:34:18,124 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:35:10,114 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:35:10,115 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:35:10,118 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:35:10,119 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:35:10,137 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : SQL to SQL
+2020-04-16 05:35:10,137 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SQL to SQL.
+2020-04-16 05:35:10,138 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:35:10,138 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:35:10,143 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:35:10,143 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:35:10,143 INFO o.a.j.t.JMeterThread: Thread started: SQL to SQL 1-1
+2020-04-16 05:35:10,166 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script9.run(Script9.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:35:10,187 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script10.run(Script10.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:35:10,190 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:35:10,190 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:35:12,842 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script10.run(Script10.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:35:15,613 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:35:17,198 INFO o.a.j.t.JMeterThread: Thread is done: SQL to SQL 1-1
+2020-04-16 05:35:17,199 INFO o.a.j.t.JMeterThread: Thread finished: SQL to SQL 1-1
+2020-04-16 05:35:17,199 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:35:17,204 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:36:15,692 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:36:15,692 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:36:15,694 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:36:15,695 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:36:15,917 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Azure to SQL
+2020-04-16 05:36:15,918 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Azure to SQL.
+2020-04-16 05:36:15,918 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:36:15,918 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:36:15,924 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:36:15,924 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:36:15,925 INFO o.a.j.t.JMeterThread: Thread started: Azure to SQL 1-1
+2020-04-16 05:36:15,952 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script11.run(Script11.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:15,973 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script12.run(Script12.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:15,976 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:36:15,977 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:36:16,723 INFO c.m.a.a.AuthenticationAuthority: [Correlation ID: c2ecee89-4352-41b8-8e8c-cb17794683f1] Instance discovery was successful
+2020-04-16 05:36:17,052 ERROR c.m.a.a.AuthenticationContext: [Correlation ID: c2ecee89-4352-41b8-8e8c-cb17794683f1] Execution of class com.microsoft.aad.adal4j.AcquireTokenCallable failed.
+com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS50126: Error validating credentials due to invalid username or password.\r\nTrace ID: e11d8178-b802-4418-85bf-209962f20c00\r\nCorrelation ID: c2ecee89-4352-41b8-8e8c-cb17794683f1\r\nTimestamp: 2020-04-16 09:36:16Z","error":"invalid_grant","error_uri":"https:\/\/login.windows.net\/error?code=50126"}
+	at com.microsoft.aad.adal4j.AdalTokenRequest.executeOAuthRequestAndProcessResponse(AdalTokenRequest.java:129) ~[mssql-jdbc-7.4.1.jre8-shaded.jar:?]
+	at com.microsoft.aad.adal4j.AuthenticationContext.acquireTokenCommon(AuthenticationContext.java:930) ~[mssql-jdbc-7.4.1.jre8-shaded.jar:?]
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:70) ~[mssql-jdbc-7.4.1.jre8-shaded.jar:?]
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:38) ~[mssql-jdbc-7.4.1.jre8-shaded.jar:?]
+	at com.microsoft.aad.adal4j.AdalCallable.call(AdalCallable.java:47) [mssql-jdbc-7.4.1.jre8-shaded.jar:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_221]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+2020-04-16 05:36:17,055 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script11.run(Script11.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:17,057 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script12.run(Script12.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:17,863 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script11.run(Script11.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:17,865 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script12.run(Script12.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:17,868 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:36:19,792 INFO o.a.j.t.JMeterThread: Thread is done: Azure to SQL 1-1
+2020-04-16 05:36:19,792 INFO o.a.j.t.JMeterThread: Thread finished: Azure to SQL 1-1
+2020-04-16 05:36:19,793 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:36:19,794 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-16 05:36:48,585 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-16 05:36:48,585 INFO o.a.j.s.SampleEvent: List of sample_variables: [Allowed, Allowed_Payer, Bad_Debt_ADJ, CA Provision, Charges, AR_Contractual_Adj, Inferred_Avoidable_Adjustment, Inferred_Pat_Pymt_From_BDA, Ins_Payments, Other_Adj, Pat_Pymt Count, Patient_Payments, Payments, Units]
+2020-04-16 05:36:48,587 INFO o.a.j.t.TestPlan: added C:\Users\AABrar\Desktop\JMeter\apache-jmeter-5.2.1\lib\mssql-jdbc-7.4.1.jre8-shaded.jar to classpath
+2020-04-16 05:36:48,588 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-16 05:36:48,798 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Azure to SQL
+2020-04-16 05:36:48,798 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Azure to SQL.
+2020-04-16 05:36:48,798 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-16 05:36:48,798 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-16 05:36:48,805 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-16 05:36:48,805 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-16 05:36:48,805 INFO o.a.j.t.JMeterThread: Thread started: Azure to SQL 1-1
+2020-04-16 05:36:48,832 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script13.run(Script13.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:48,853 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script14.run(Script14.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:48,856 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:36:48,856 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.jmeter.assertions.AssertionResult;  AssertionResult[] results  . . . '' : Typed variable declaration
+2020-04-16 05:36:49,546 INFO c.m.a.a.AuthenticationAuthority: [Correlation ID: edb3137a-6c97-4660-b7ba-5b9f01654ae0] Instance discovery was successful
+2020-04-16 05:36:51,092 INFO c.m.a.a.AuthenticationAuthority: [Correlation ID: f7827c09-dfb7-43ec-9089-edb8218a6e55] Instance discovery was successful
+2020-04-16 05:36:51,930 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:324) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:72) ~[groovy-all-2.4.16.jar:2.4.16]
+	at javax.script.CompiledScript.eval(Unknown Source) ~[?:1.8.0_221]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:223) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:44) [ApacheJMeter_components.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:941) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:542) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:490) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:257) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:56) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at Script14.run(Script14.groovy:4) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:321) ~[groovy-all-2.4.16.jar:2.4.16]
+	... 9 more
+2020-04-16 05:36:54,784 INFO o.a.j.p.s.s.p.SendMailCommand: Using ssl/tls protocols for mail: SSLv2Hello SSLv3 TLSv1 TLSv1.1 TLSv1.2
+2020-04-16 05:36:56,396 INFO o.a.j.t.JMeterThread: Thread is done: Azure to SQL 1-1
+2020-04-16 05:36:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Azure to SQL 1-1
+2020-04-16 05:36:56,397 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-16 05:36:56,404 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

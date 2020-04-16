@@ -1,0 +1,64 @@
+package org.olap4j.layout;
+//package org.olap4j.*;
+//package org.olap4j;
+//import org.olap4j.driver.xmla.proxy;
+import org.olap4j.impl.Olap4jUtil;
+import org.olap4j.*;
+import org.olap4jxmla.*;
+//import org.olap4j..xmla.driver.xmla.XmlaOlap4jDriver;
+import java.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import org.olap4j.impl.CoordinateIterator;
+import org.olap4j.OlapConnection;
+
+public static void main(String[] args) throws ClassNotFoundException, OlapException{
+    Class.forName("org.olap4j.driver.xmla.XmlaOlap4jDriver");
+    Connection connection = null;;
+    try {
+        connection = DriverManager.getConnection(
+"jdbc:xmla:Server=cofindwdb01t.corp.pediatrix.net:8080/OLAP/msmdpump.dll"+
+                ";Catalog=AA Financials", + ";Integrated Security=Basic " +
+";User ID=AABrar" +
+";Password=Vinayaka420$");
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    if (null== connection){
+        System.out.println("Connection null");
+    }else
+        System.out.println("Connect Successfully !");
+
+    OlapWrapper wrapper = (OlapWrapper) connection;
+    OlapConnection olapConnection = null;
+    try {
+    olapConnection = wrapper.unwrap(OlapConnection.class);
+    } catch (SQLException e) {
+    e.printStackTrace();
+    }
+    OlapStatement statement = null;
+    CellSet cellSet = null;
+    try {
+    statement = (OlapStatement) olapConnection.createStatement();
+    cellSet =   statement.executeOlapQuery(
+"select top 1000 [Accounting Period].[AcctPer Year - Quarter - Month - Calculations] from [AA Transactions]"
+    );
+
+    } catch (SQLException e) {
+    e.printStackTrace();
+    }
+
+    for (Position row : cellSet.getAxes().get(1)) {
+        for (Position column : cellSet.getAxes().get(0)) {
+                for (Member member : row.getMembers()) {
+                        System.out.println(member.getName());
+                }
+                final Cell cell = cellSet.getCell(column, row);
+                System.out.println(cell.getFormattedValue());
+                System.out.println();
+
+        }
+
+    }
+}
